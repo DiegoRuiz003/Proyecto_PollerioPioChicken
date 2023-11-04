@@ -106,11 +106,11 @@
     <Compile Include="RealizaOrdendeProduccion.Designer.cs">
       <DependentUpon>RealizaOrdendeProduccion.cs</DependentUpon>
     </Compile>
-    <Compile Include="RealizaPedido.cs">
+    <Compile Include="RealizaNotaVenta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RealizaPedido.Designer.cs">
-      <DependentUpon>RealizaPedido.cs</DependentUpon>
+    <Compile Include="RealizaNotaVenta.Designer.cs">
+      <DependentUpon>RealizaNotaVenta.cs</DependentUpon>
     </Compile>
     <Compile Include="RealizaPlandeProduccion.cs">
       <SubType>Form</SubType>
@@ -171,8 +171,8 @@
     <EmbeddedResource Include="RealizaOrdendeProduccion.resx">
       <DependentUpon>RealizaOrdendeProduccion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RealizaPedido.resx">
-      <DependentUpon>RealizaPedido.cs</DependentUpon>
+    <EmbeddedResource Include="RealizaNotaVenta.resx">
+      <DependentUpon>RealizaNotaVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RealizaPlandeProduccion.resx">
       <DependentUpon>RealizaPlandeProduccion.cs</DependentUpon>
