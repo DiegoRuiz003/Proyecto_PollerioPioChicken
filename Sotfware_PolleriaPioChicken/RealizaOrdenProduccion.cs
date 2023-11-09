@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sotfware_PolleriaPioChicken
 {
-    public partial class RealizaPlandeProduccion : Form
+    public partial class RealizaOrdenProduccion : Form
     {
-        public RealizaPlandeProduccion()
+        public RealizaOrdenProduccion()
         {
             InitializeComponent();
         }

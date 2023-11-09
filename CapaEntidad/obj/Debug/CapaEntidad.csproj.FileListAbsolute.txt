@@ -10,3 +10,9 @@ C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PI
 C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.pdb

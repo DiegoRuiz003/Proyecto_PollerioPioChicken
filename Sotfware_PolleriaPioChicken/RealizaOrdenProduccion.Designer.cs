@@ -1,6 +1,6 @@
 ﻿namespace Sotfware_PolleriaPioChicken
 {
-    partial class RealizaPlandeProduccion
+    partial class RealizaOrdenProduccion
     {
         /// <summary>
         /// Required designer variable.
@@ -91,7 +91,7 @@
             this.dateTimePicker2.Location = new System.Drawing.Point(369, 50);
             this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(151, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(214, 20);
             this.dateTimePicker2.TabIndex = 22;
             // 
             // label8
@@ -132,10 +132,10 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(435, 21);
+            this.textBox4.Location = new System.Drawing.Point(440, 21);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(85, 20);
+            this.textBox4.Size = new System.Drawing.Size(80, 20);
             this.textBox4.TabIndex = 4;
             // 
             // textBox6
@@ -270,7 +270,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "RealizaPlandeProduccion";
-            this.Text = "RealizaPlandeProduccion";
+            this.Text = "RealizaOrdenDeProduccion";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

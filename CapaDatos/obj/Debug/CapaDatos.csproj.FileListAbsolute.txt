@@ -16,3 +16,12 @@ C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PI
 C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Git\Proyecto_PollerioPioChicken\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Git\Proyecto_PollerioPioChicken\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Git\Proyecto_PollerioPioChicken\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaDatos\obj\Debug\CapaDatos.pdb

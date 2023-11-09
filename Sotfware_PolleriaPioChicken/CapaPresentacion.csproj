@@ -100,11 +100,11 @@
     <Compile Include="RealizaNotadeSalida.Designer.cs">
       <DependentUpon>RealizaNotadeSalida.cs</DependentUpon>
     </Compile>
-    <Compile Include="RealizaOrdendeProduccion.cs">
+    <Compile Include="RealizaPlanProduccion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RealizaOrdendeProduccion.Designer.cs">
-      <DependentUpon>RealizaOrdendeProduccion.cs</DependentUpon>
+    <Compile Include="RealizaPlanProduccion.Designer.cs">
+      <DependentUpon>RealizaPlanProduccion.cs</DependentUpon>
     </Compile>
     <Compile Include="RealizaNotaVenta.cs">
       <SubType>Form</SubType>
@@ -112,11 +112,11 @@
     <Compile Include="RealizaNotaVenta.Designer.cs">
       <DependentUpon>RealizaNotaVenta.cs</DependentUpon>
     </Compile>
-    <Compile Include="RealizaPlandeProduccion.cs">
+    <Compile Include="RealizaOrdenProduccion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RealizaPlandeProduccion.Designer.cs">
-      <DependentUpon>RealizaPlandeProduccion.cs</DependentUpon>
+    <Compile Include="RealizaOrdenProduccion.Designer.cs">
+      <DependentUpon>RealizaOrdenProduccion.cs</DependentUpon>
     </Compile>
     <Compile Include="RealizaSolicitudCompra.cs">
       <SubType>Form</SubType>
@@ -168,14 +168,14 @@
     <EmbeddedResource Include="RealizaNotadeSalida.resx">
       <DependentUpon>RealizaNotadeSalida.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RealizaOrdendeProduccion.resx">
-      <DependentUpon>RealizaOrdendeProduccion.cs</DependentUpon>
+    <EmbeddedResource Include="RealizaPlanProduccion.resx">
+      <DependentUpon>RealizaPlanProduccion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RealizaNotaVenta.resx">
       <DependentUpon>RealizaNotaVenta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RealizaPlandeProduccion.resx">
-      <DependentUpon>RealizaPlandeProduccion.cs</DependentUpon>
+    <EmbeddedResource Include="RealizaOrdenProduccion.resx">
+      <DependentUpon>RealizaOrdenProduccion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RealizaSolicitudCompra.resx">
       <DependentUpon>RealizaSolicitudCompra.cs</DependentUpon>

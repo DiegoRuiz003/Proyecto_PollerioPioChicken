@@ -1,6 +1,6 @@
 ﻿namespace Sotfware_PolleriaPioChicken
 {
-    partial class RealizaOrdendeProduccion
+    partial class RealizaPlanProduccion
     {
         /// <summary>
         /// Required designer variable.
