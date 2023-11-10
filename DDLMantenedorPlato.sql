@@ -137,8 +137,6 @@ GO
 -- PROCEDIMIENTOS ALMACENADOS
 -- para TIPOPLATO
 
-select * from tipoplato
-
 create or alter proc spInsertarTipoPlato
 (@tipoplatoid nvarchar(10), @nombretipoplato nvarchar(50), @estadotipoplato bit)
 as
@@ -176,4 +174,44 @@ where
 go
 
 select * from Tipoplato
+
+-- para TIPOINSUMO
+
+create or alter proc spInsertarTipoInsumo
+(@tipoinsumoid nvarchar(10), @nombretipoinsumo nvarchar(50), @estadotipoinsumo bit)
+as
+insert into Tipoinsumo values
+(@nombretipoinsumo, @tipoinsumoid, @estadotipoinsumo)
+go
+
+create or alter proc spListarTipoInsumo
+as
+select * from TipoInsumo
+where EstadoTipoInsumo = 1
+go
+
+create or alter proc spEditarTipoInsumo
+(@tipoinsumoid nvarchar(10), @nombretipoinsumo nvarchar(50), @estadotipoinsumo bit)
+as
+update
+Tipoinsumo 
+set
+NombreTipoinsumo = @nombretipoinsumo,
+EstadoTipoinsumo = @estadotipoinsumo
+where 
+@tipoinsumoid = tipoinsumoid
+go
+
+create or alter proc spDeshabilitarTipoinsumo
+(@tipoinsumoid nvarchar(10))
+as
+update
+Tipoinsumo
+set
+EstadoTipoinsumo = 0
+where
+@tipoinsumoid = TipoinsumoID
+go
+
+select * from Tipoinsumo
 

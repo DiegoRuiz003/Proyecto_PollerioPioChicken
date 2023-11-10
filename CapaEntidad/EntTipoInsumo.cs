@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class EntTipoInsumo
+    public class EntTipoInsumo
     {
+        public String id { get; set; }
+        public String nombre { get; set; }
+        public bool estado { get; set; }
+
+        public EntTipoInsumo() { }
+
     }
 }
