@@ -231,6 +231,7 @@
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.dgvTipoInsumo);
             this.Name = "MantenedorTipodeInsumo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MantenedorTipodeInsumo";
             this.gbDatos.ResumeLayout(false);
             this.gbDatos.PerformLayout();

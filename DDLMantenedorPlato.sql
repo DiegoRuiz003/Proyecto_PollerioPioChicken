@@ -215,3 +215,44 @@ go
 
 select * from Tipoinsumo
 
+-- para INSUMO
+
+create or alter proc spInsertarInsumo
+(@insumoid nvarchar(10), @nombreinsumo nvarchar(50), @idtipoinsumo nvarchar(10), @cantidadinsumo int, @estadoinsumo bit)
+as
+insert into insumo values
+(@insumoid, @cantidadinsumo, @idtipoinsumo, @estadoinsumo, @nombreinsumo)
+go
+
+create or alter proc spListarInsumo
+as
+select * from insumo
+where EstadoInsumo = 1
+go
+
+create or alter proc spEditarInsumo
+(@insumoid nvarchar(10), @nombreinsumo nvarchar(50), @idtipoinsumo nvarchar(10), @cantidadinsumo int, @estadoinsumo bit)
+as
+update
+Insumo
+set
+NombreInsumo = @nombreinsumo,
+TipoinsumoID = @idtipoinsumo,
+CantidadInsumo = @cantidadinsumo,
+Estadoinsumo = @estadoinsumo
+where 
+@insumoid = insumoid
+go
+
+create or alter proc spDeshabilitarinsumo
+(@insumoid nvarchar(10))
+as
+update
+insumo
+set
+Estadoinsumo = 0
+where
+@insumoid = insumoid
+go
+
+select * from insumo
