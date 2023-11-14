@@ -112,6 +112,12 @@
     <Compile Include="RealizaOrdendeProduccion.Designer.cs">
       <DependentUpon>RealizaOrdendeProduccion.cs</DependentUpon>
     </Compile>
+    <Compile Include="RealizaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealizaPago.Designer.cs">
+      <DependentUpon>RealizaPago.cs</DependentUpon>
+    </Compile>
     <Compile Include="RealizaPedido.cs">
       <SubType>Form</SubType>
     </Compile>
