@@ -88,6 +88,12 @@
     <Compile Include="MantenedorTipodePlato.Designer.cs">
       <DependentUpon>MantenedorTipodePlato.cs</DependentUpon>
     </Compile>
+    <Compile Include="PolleriaPioChicken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PolleriaPioChicken.Designer.cs">
+      <DependentUpon>PolleriaPioChicken.cs</DependentUpon>
+    </Compile>
     <Compile Include="RealizaNotadeIngreso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,11 +130,11 @@
     <Compile Include="RealizaSolicitudCompra.Designer.cs">
       <DependentUpon>RealizaSolicitudCompra.cs</DependentUpon>
     </Compile>
-    <Compile Include="RealizaVenta.cs">
+    <Compile Include="RealizaNotadeVenta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RealizaVenta.Designer.cs">
-      <DependentUpon>RealizaVenta.cs</DependentUpon>
+    <Compile Include="RealizaNotadeVenta.Designer.cs">
+      <DependentUpon>RealizaNotadeVenta.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -152,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorTipodePlato.resx">
       <DependentUpon>MantenedorTipodePlato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PolleriaPioChicken.resx">
+      <DependentUpon>PolleriaPioChicken.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -180,8 +189,8 @@
     <EmbeddedResource Include="RealizaSolicitudCompra.resx">
       <DependentUpon>RealizaSolicitudCompra.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RealizaVenta.resx">
-      <DependentUpon>RealizaVenta.cs</DependentUpon>
+    <EmbeddedResource Include="RealizaNotadeVenta.resx">
+      <DependentUpon>RealizaNotadeVenta.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

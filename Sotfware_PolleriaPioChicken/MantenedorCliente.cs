@@ -102,5 +102,10 @@ namespace Sotfware_PolleriaPioChicken
             dgvCliente.DataSource = logCliente.Instancia.LeerCliente();
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

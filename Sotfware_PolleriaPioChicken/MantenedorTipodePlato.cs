@@ -16,5 +16,10 @@ namespace Sotfware_PolleriaPioChicken
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
