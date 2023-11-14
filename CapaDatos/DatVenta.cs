@@ -8,7 +8,8 @@ namespace CapaDatos
 {
     internal class DatVenta
     {
-
         //prueba3
+        //PRUEBA 1 
+        //PRUEBA 2
     }
 }
