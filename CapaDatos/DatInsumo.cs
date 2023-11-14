@@ -8,5 +8,6 @@ namespace CapaDatos
 {
     internal class DatInsumo
     {
+        //comentario
     }
 }
