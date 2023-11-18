@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace CapaDatos
 {
-    internal class DatNotaSalida
+    public class DatNotaSalida
     {
+        #region sigleton
+        private static readonly DatNotaSalida _instancia = new DatNotaSalida();
+        public static DatNotaSalida Instancia
+        {
+            get
+            {
+                return DatNotaSalida._instancia;
+            }
+        }
+        #endregion singleton
     }
 }
