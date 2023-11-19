@@ -16,7 +16,7 @@ namespace Sotfware_PolleriaPioChicken
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MantenedorInsumo());// MantenedorCliente()
+            Application.Run(new MantenedorPlato());// MantenedorCliente()
         }
     }
 }

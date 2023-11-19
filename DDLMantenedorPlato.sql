@@ -256,3 +256,110 @@ where
 go
 
 select * from insumo
+
+
+-- para PLATO
+
+create or alter proc spListarInsumoEscogido
+(@insumoId nvarchar(10))
+as
+select * from Insumo
+where InsumoID = @insumoid and EstadoInsumo = 1
+go
+
+
+create or alter proc spListarPlato
+as
+select * from Plato
+where EstadoPlato = 1
+go
+
+
+create or alter proc spInsertarPlato
+(@platoid nvarchar(50), @estadoplato bit, @tipoplatoid nvarchar(50), @nombreplato nvarchar(50), @precioplato decimal)
+as
+insert into Plato values
+(@platoid, @estadoplato, @tipoplatoid, @nombreplato, @precioplato)
+go
+
+/*
+alter table insumoplato
+add EstadoInsumoPlato bit not null
+*/
+
+create or alter proc spListarInsumoPlato
+(@idplato nvarchar(50))
+as
+select * from InsumoPlato
+where estadoinsumoplato = 1 and @idplato = PlatoID
+go
+
+create or alter proc spInsertarInsumoPlato
+(@insumoid nvarchar(50), @platoid nvarchar(50), @estadoinsumoplato bit)
+as
+if not exists (select 1 From InsumoPlato where @insumoid = InsumoID and @platoid = PlatoID)
+begin
+insert into InsumoPlato values
+(@platoid, @insumoid, @estadoinsumoplato)
+end
+go
+
+create or alter proc spEditarPlato
+(@platoid nvarchar(50), @estadoplato bit, @tipoplatoid nvarchar(50), @nombreplato nvarchar(50), @precioplato decimal)
+as
+update Plato
+set 
+EstadoPlato = @estadoplato,
+TipoplatoID = @tipoplatoid,
+NombrePlato = @nombreplato,
+PrecioPlato = @precioplato
+where PlatoID = @platoid
+go
+
+create or alter proc spDeshabilitarInsumoPlato
+(@insumoid nvarchar(10), @platoid nvarchar(10))
+as
+update InsumoPlato
+set estadoinsumoplato = 0
+where PlatoID = @platoid and InsumoID = @insumoid
+go
+
+create or alter proc spDeshabilitarPlato
+(@platoid nvarchar(10))
+as
+update Plato
+set EstadoPlato = 0
+where PlatoID = @platoid
+go
+
+select * from insumoplato
+
+select * from plato
+
+
+
+/* DEFINIR PRIMARY KEY INSUMOPLATO
+alter table insumoplato
+add primary key (platoid, insumoid)
+
+alter table insumoplato 
+alter column insumoid nvarchar(10) not null
+
+
+select * from insumoplato
+
+delete from insumoplato
+where PlatoID = 'hjh'
+*/
+
+select * from insumo
+
+
+create or alter proc spListarDetallePlato
+(@platoid nvarchar(10))
+as
+select * from Insumo i inner join InsumoPlato inpl on inpl.InsumoID = i.InsumoID
+where inpl.PlatoID = @platoid and inpl.estadoinsumoplato = 1
+go
+
+SELECT * FROM INSUMOPLATO
