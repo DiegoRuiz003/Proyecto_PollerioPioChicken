@@ -22,7 +22,7 @@ namespace CapaDatos
         }
         #endregion singleton
         #region metodos
-        //LISTADO DE NOTAINGRESO
+        //LISTADO DE NOTASALIDA
         public List<EntNotaSalida> ListarNotaSalida()
         {
             SqlCommand cmd = null;
@@ -125,6 +125,7 @@ namespace CapaDatos
                 cmd = new SqlCommand("spAnularNotaSalida", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@IdProducto", ns.IdProducto);
+                cmd.Parameters.AddWithValue("@Estado", ns.Estado);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

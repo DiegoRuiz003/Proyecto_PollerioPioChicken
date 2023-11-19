@@ -131,6 +131,7 @@ namespace CapaDatos
                 cmd = new SqlCommand("spAnularNotaIngreso", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@IdProducto", ni.IdProducto);
+                cmd.Parameters.AddWithValue("@Estado", ni.Estado);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

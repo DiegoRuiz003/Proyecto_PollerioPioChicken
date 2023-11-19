@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace CapaLogica
 {
-    internal class LogNotaSalida
+    public class LogNotaSalida
     {
         #region sigleton
         //Patron Singleton
@@ -23,19 +23,19 @@ namespace CapaLogica
         #region metodos
 
         //LISTAR
-        public List<EntNotaSalida> ListarNotaIngreso()
+        public List<EntNotaSalida> ListarNotaSalida()
         {
             return DatNotaSalida.Instancia.ListarNotaSalida();
         }
         //INSERTAR
-        public void InsertarNotaIngreso(EntNotaSalida ns)
+        public void InsertarNotaSalida(EntNotaSalida ns)
         {
             DatNotaSalida.Instancia.InsertarNotaSalida(ns);
         }
 
         //EDITAR
         /*
-        public void EditarNotaIngreso(EntNotaSalida ns)
+        public void EditarNotaSalida(EntNotaSalida ns)
         {
             DatNotaSalida.Instancia.EditarNotaSalida(ns);
         }*/

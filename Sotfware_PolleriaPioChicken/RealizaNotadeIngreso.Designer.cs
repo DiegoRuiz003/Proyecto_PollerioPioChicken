@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RealizaNotadeIngreso));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
@@ -43,7 +43,7 @@
             this.txtNomInsumo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dgvDetNotInsumo = new System.Windows.Forms.DataGridView();
+            this.dgvDetNotIngreso = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -58,7 +58,7 @@
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDetNotInsumo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDetNotIngreso)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbCerrar)).BeginInit();
             this.SuspendLayout();
@@ -192,7 +192,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.dgvDetNotInsumo);
+            this.groupBox3.Controls.Add(this.dgvDetNotIngreso);
             this.groupBox3.Location = new System.Drawing.Point(13, 230);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox3.Name = "groupBox3";
@@ -202,13 +202,13 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "DETALLE NOTA DE INGRESO";
             // 
-            // dgvDetNotInsumo
+            // dgvDetNotIngreso
             // 
-            this.dgvDetNotInsumo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvDetNotInsumo.BackgroundColor = System.Drawing.Color.Silver;
-            this.dgvDetNotInsumo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dgvDetNotInsumo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDetNotInsumo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvDetNotIngreso.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvDetNotIngreso.BackgroundColor = System.Drawing.Color.Silver;
+            this.dgvDetNotIngreso.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvDetNotIngreso.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDetNotIngreso.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
@@ -216,20 +216,20 @@
             this.Column7,
             this.Column6,
             this.Column5});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDetNotInsumo.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvDetNotInsumo.Location = new System.Drawing.Point(10, 20);
-            this.dgvDetNotInsumo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.dgvDetNotInsumo.Name = "dgvDetNotInsumo";
-            this.dgvDetNotInsumo.Size = new System.Drawing.Size(690, 185);
-            this.dgvDetNotInsumo.TabIndex = 7;
-            this.dgvDetNotInsumo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetNotInsumo_CellContentClick);
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDetNotIngreso.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvDetNotIngreso.Location = new System.Drawing.Point(10, 20);
+            this.dgvDetNotIngreso.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.dgvDetNotIngreso.Name = "dgvDetNotIngreso";
+            this.dgvDetNotIngreso.Size = new System.Drawing.Size(690, 185);
+            this.dgvDetNotIngreso.TabIndex = 7;
+            this.dgvDetNotIngreso.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetNotIngreso_CellContentClick);
             // 
             // Column1
             // 
@@ -341,7 +341,7 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDetNotInsumo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDetNotIngreso)).EndInit();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbCerrar)).EndInit();
             this.ResumeLayout(false);
@@ -363,7 +363,7 @@
         private System.Windows.Forms.TextBox txtNomInsumo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.DataGridView dgvDetNotInsumo;
+        private System.Windows.Forms.DataGridView dgvDetNotIngreso;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnAnular;
         private System.Windows.Forms.Button btnRegistrar;
