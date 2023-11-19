@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class EntNotaSalida
+    public class EntNotaSalida
     {
+        public int IdProducto { get; set; }
+        public string Producto { get; set; }
+        public int Cantidad { get; set; }
+        public DateTime FecRegInsumo { get; set; }
+        public Boolean Estado { get; set; }
     }
 }
