@@ -42,3 +42,14 @@ C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_Poll
 C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.pdb

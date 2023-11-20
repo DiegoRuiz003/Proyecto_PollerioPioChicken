@@ -16,3 +16,9 @@ C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicke
 C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Git\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.pdb
