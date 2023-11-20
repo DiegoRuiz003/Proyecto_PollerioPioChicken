@@ -38,9 +38,9 @@ namespace Sotfware_PolleriaPioChicken
             try
             {
                 EntNotaSalida sal = new EntNotaSalida();
-                sal.Producto = txtNomInsumo.Text.Trim();
+                sal.Insumo = txtNomInsumo.Text.Trim();
                 sal.Cantidad = int.Parse(nudCantidad.Text.Trim());
-                sal.FecRegInsumo = dtPickerRegInsumo.Value;
+                sal.FecRegSolicitud = dtPickerRegInsumo.Value;
                 //ing.Estado
                 LogNotaSalida.Instancia.InsertarNotaSalida(sal);
             }
@@ -70,9 +70,9 @@ namespace Sotfware_PolleriaPioChicken
             {
                 EntNotaSalida sal = new EntNotaSalida();
                 //sal.IdProducto
-                sal.Producto = txtNomInsumo.Text.Trim();
+                sal.Insumo = txtNomInsumo.Text.Trim();
                 sal.Cantidad = int.Parse(nudCantidad.Text.Trim());
-                sal.FecRegInsumo = dtPickerRegInsumo.Value;
+                sal.FecRegSolicitud = dtPickerRegInsumo.Value;
                 //sal.Estado
                 LogNotaSalida.Instancia.InsertarNotaSalida(sal);
             }

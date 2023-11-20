@@ -46,11 +46,11 @@ namespace Sotfware_PolleriaPioChicken
             try
             {
                 EntNotaIngreso ing = new EntNotaIngreso();
-                ing.Producto = txtNomInsumo.Text.Trim();
+                ing.Insumo = txtNomInsumo.Text.Trim();
                 ing.Proveedor = txtNomProveedor.Text.Trim();
                 ing.Cantidad = int.Parse(nudCantidad.Text.Trim());
                 ing.Precio = int.Parse(txtPrecio.Text.Trim());
-                ing.FecRegInsumo = dtPickerRegInsumo.Value;
+                ing.FecRegSolicitud = dtPickerRegInsumo.Value;
                 LogNotaIngreso.Instancia.InsertarNotaIngreso(ing);
             }
             catch (Exception ex)
@@ -78,11 +78,11 @@ namespace Sotfware_PolleriaPioChicken
             {
                 EntNotaIngreso ing = new EntNotaIngreso();
                 //ing.IdProducto
-                ing.Producto = txtNomInsumo.Text.Trim();
+                ing.Insumo = txtNomInsumo.Text.Trim();
                 ing.Proveedor = txtNomProveedor.Text.Trim();
                 ing.Cantidad = int.Parse(nudCantidad.Text.Trim());
                 ing.Precio = int.Parse(txtPrecio.Text.Trim());
-                ing.FecRegInsumo = dtPickerRegInsumo.Value;
+                ing.FecRegSolicitud = dtPickerRegInsumo.Value;
                 //ing.Estado
                 LogNotaIngreso.Instancia.InsertarNotaIngreso(ing);
             }

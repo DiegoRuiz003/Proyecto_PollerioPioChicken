@@ -37,10 +37,10 @@ namespace CapaDatos
                 while (dr.Read())
                 {
                     EntNotaSalida ns = new EntNotaSalida();
-                    ns.IdProducto = Convert.ToInt32(dr["IdProducto"]);
-                    ns.Producto = dr["Producto"].ToString();
+                    ns.IdInsumo = Convert.ToInt32(dr["IdInsumo"]);
+                    ns.Insumo = dr["Insumo"].ToString();
                     ns.Cantidad = Convert.ToInt32(dr["Cantidad"]);
-                    ns.FecRegInsumo = Convert.ToDateTime(dr["FecRegInsumo"]);
+                    ns.FecRegSolicitud = Convert.ToDateTime(dr["FecRegSolicitud"]);
                     ns.Estado = Convert.ToBoolean(dr["Estado"]);
                     lista.Add(ns);
                 }
@@ -67,9 +67,9 @@ namespace CapaDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spInsertarInsumo", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@Producto", ns.Producto);
+                cmd.Parameters.AddWithValue("@Insumo", ns.Insumo);
                 cmd.Parameters.AddWithValue("@Cantidad", ns.Cantidad);
-                cmd.Parameters.AddWithValue("@FecRegInsumo", ns.FecRegInsumo);
+                cmd.Parameters.AddWithValue("@FecRegSolicitud", ns.FecRegSolicitud);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
@@ -124,7 +124,7 @@ namespace CapaDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spAnularNotaSalida", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@IdProducto", ns.IdProducto);
+                cmd.Parameters.AddWithValue("@IdInsumo", ns.IdInsumo);
                 cmd.Parameters.AddWithValue("@Estado", ns.Estado);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
@@ -156,10 +156,10 @@ namespace CapaDatos
                 while (dr.Read())
                 {
                     EntNotaSalida ns = new EntNotaSalida();
-                    ns.IdProducto = Convert.ToInt32(dr["IdProducto"]);
-                    ns.Producto = dr["Producto"].ToString();
+                    ns.IdInsumo = Convert.ToInt32(dr["IdInsumo"]);
+                    ns.Insumo = dr["Insumo"].ToString();
                     ns.Cantidad = Convert.ToInt32(dr["Cantidad"]);
-                    ns.FecRegInsumo = Convert.ToDateTime(dr["FecRegInsumo"]);
+                    ns.FecRegSolicitud = Convert.ToDateTime(dr["FecRegSolicitud"]);
                     ns.Estado = Convert.ToBoolean(dr["Estado"]);
                     leer.Add(ns);
                 }

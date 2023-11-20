@@ -8,10 +8,10 @@ namespace CapaEntidad
 {
     public class EntNotaSalida
     {
-        public int IdProducto { get; set; }
-        public string Producto { get; set; }
+        public int IdInsumo { get; set; }
+        public string Insumo { get; set; }
         public int Cantidad { get; set; }
-        public DateTime FecRegInsumo { get; set; }
+        public DateTime FecRegSolicitud { get; set; }
         public Boolean Estado { get; set; }
     }
 }

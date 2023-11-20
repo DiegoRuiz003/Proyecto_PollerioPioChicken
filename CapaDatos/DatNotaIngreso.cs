@@ -37,12 +37,12 @@ namespace CapaDatos
                 while (dr.Read())
                 {
                     EntNotaIngreso ni = new EntNotaIngreso();
-                    ni.IdProducto = Convert.ToInt32(dr["IdProducto"]);
-                    ni.Producto = dr["Producto"].ToString();
+                    ni.IdInsumo = Convert.ToInt32(dr["IdInsumo"]);
+                    ni.Insumo = dr["Insumo"].ToString();
                     ni.Proveedor = dr["Proveedor"].ToString();
                     ni.Cantidad = Convert.ToInt32(dr["Cantidad"]);
                     ni.Precio = Convert.ToInt32(dr["Precio"]);
-                    ni.FecRegInsumo = Convert.ToDateTime(dr["FecRegInsumo"]);
+                    ni.FecRegSolicitud = Convert.ToDateTime(dr["FecRegSolicitud"]);
                     ni.Estado = Convert.ToBoolean(dr["Estado"]);
                     lista.Add(ni);
                 }
@@ -69,11 +69,11 @@ namespace CapaDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spInsertarNotaIngreso", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@Producto", ni.Producto);
+                cmd.Parameters.AddWithValue("@Insumo", ni.Insumo);
                 cmd.Parameters.AddWithValue("@Proveedor", ni.Proveedor);
                 cmd.Parameters.AddWithValue("@Cantidad", ni.Cantidad);
                 cmd.Parameters.AddWithValue("@Precio", ni.Precio);
-                cmd.Parameters.AddWithValue("@FecRegInsumo", ni.FecRegInsumo);
+                cmd.Parameters.AddWithValue("@FecRegSolicitud", ni.FecRegSolicitud);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
@@ -130,7 +130,7 @@ namespace CapaDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spAnularNotaIngreso", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@IdProducto", ni.IdProducto);
+                cmd.Parameters.AddWithValue("@IdInsumo", ni.IdInsumo);
                 cmd.Parameters.AddWithValue("@Estado", ni.Estado);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
@@ -162,12 +162,12 @@ namespace CapaDatos
                 while (dr.Read())
                 {
                     EntNotaIngreso ni = new EntNotaIngreso();
-                    ni.IdProducto = Convert.ToInt32(dr["IdProducto"]);
-                    ni.Producto = dr["Producto"].ToString();
+                    ni.IdInsumo = Convert.ToInt32(dr["IdInsumo"]);
+                    ni.Insumo = dr["Insumo"].ToString();
                     ni.Proveedor = dr["Proveedor"].ToString();
                     ni.Cantidad = Convert.ToInt32(dr["Cantidad"]);
                     ni.Precio = Convert.ToInt32(dr["Precio"]);
-                    ni.FecRegInsumo = Convert.ToDateTime(dr["FecRegInsumo"]);
+                    ni.FecRegSolicitud = Convert.ToDateTime(dr["FecRegSolicitud"]);
                     ni.Estado = Convert.ToBoolean(dr["Estado"]);
                     leer.Add(ni);
                 }
