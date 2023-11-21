@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class EntNotaIngreso
+    public class EntNotaIngreso
     {
+        public int IdInsumo { get; set; }
+        public string Insumo { get; set; }
+        public string Proveedor { get; set; }
+        public int Cantidad { get; set; }
+        public int Precio { get; set; }
+        public DateTime FecRegSolicitud { get; set; }
+        public Boolean Estado { get; set; }
     }
 }
