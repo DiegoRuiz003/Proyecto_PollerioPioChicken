@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CapaDatos
+namespace CapaEntidad
 {
-    internal class DatVenta
+    internal class entPago
     {
-        //prueba3
-        //PRUEBA 1 
-        //PRUEBA 2
     }
 }
