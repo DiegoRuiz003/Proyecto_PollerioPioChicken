@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaLogica
 {
-    internal class LogVenta
+    internal class logPago
     {
     }
 }
